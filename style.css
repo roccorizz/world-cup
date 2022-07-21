@@ -26,8 +26,9 @@ main {
 .all-btn {
     padding: 10px 20px;
     color: #ffffff;
-    background: #000066;
+    background: linear-gradient(tomato, red);
     border-radius: 5px;
+
 }
 
 /*---------------
@@ -37,7 +38,7 @@ main {
 .banner-section {
     display: flex;
     justify-content: center;
-    background: #000000;
+    background: #1a0230;
     margin-top: 50px;
     border-radius: 20px;
 }
@@ -103,11 +104,11 @@ main {
  ----------------- */
 @keyframes button-animatin {
     0% {
-        background-color: rgb(72, 39, 126);
+        background-color: rgb(255, 13, 0);
     }
 
     100% {
-        background: rgb(110, 22, 197);
+        background: rgb(220, 41, 9);
     }
 }
 
@@ -146,6 +147,11 @@ main {
     color: #ffffff;
 }
 
+.artikel-button-section a:hover {
+    background: linear-gradient(tomato, red);
+    color: whitesmoke;
+}
+
 /*--------------- artikel buttton section end  ------------- */
 
 /* ------------------article/blog section ------------ */
@@ -165,9 +171,6 @@ main {
 }
 
 /*---------------------------
-  upcoming match page section start 
-  upcoming match page section start 
-  upcoming match page section start 
   upcoming match page section start 
   --------------- */
 .flag-page-container {
@@ -200,19 +203,10 @@ main {
 }
 
 /*--------------------------
-  upcoming page section end 
-  upcoming page section end 
-  upcoming page section end 
-  upcoming page section end 
-  upcoming page section end 
+  upcoming page section end  
  ---------------- */
 
 /*----------------------
-  group page section start 
-  group page section start 
-  group page section start 
-  group page section start 
-  group page section start 
   group page section start 
  ----------------- */
 
@@ -247,10 +241,6 @@ main {
 }
 
 /*-----------------------
-  group page section end 
-  group page section end 
-  group page section end 
-  group page section end 
   group page section end 
  --------------------- */
 
@@ -294,10 +284,7 @@ main {
 }
 
 /*--------------------
-  blog section end 
-  blog section end 
-  blog section end 
-  blog section end 
+  blog section end  
  ----------------- */
 
 .footer-section {
@@ -345,10 +332,6 @@ main {
 }
 
 /*-----------------
-     media quary add 
-     media quary add 
-     media quary add 
-     media quary add 
      media quary add 
     ----------------- */
 
@@ -542,9 +525,6 @@ main {
 }
 
 /* ---------------------
-    mobile responsive media quary up to 576px
-    mobile responsive media quary up to 576px
-    mobile responsive media quary up to 576px
     mobile responsive media quary up to 576px
     ----------------- */
 
