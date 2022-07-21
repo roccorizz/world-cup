@@ -44,7 +44,7 @@ main {
 
 .banner-content {
     width: 55%;
-    padding: 100px 0 0 100px;
+    padding: 70px 0 0 100px;
     color: #ffffff;
 }
 
@@ -80,7 +80,7 @@ main {
     margin-bottom: -5px;
 }
 
-.all-btn .fa-mouse-pointer {
+.all-btn {
     padding-left: 10px;
     font-size: 15px;
     animation: animation 0.5s linear infinite;
